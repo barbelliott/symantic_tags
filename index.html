@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Symantic Tags</</title>
+</head>
+
+<body>
+	<header>
+		<p>HTML5 Assignment #1, Barb Elliott, 10/12/14</p>
+	</header>
+	
+    <h1>Interesting Stuff about Symantic Tags</h1>
+	
+    <h2>Table of Contents</h2>	
+	
+	<nav>
+        <p><a href="#Art/Sec">Articles vs. Sections</a></p>
+        <p><a href="#Images">The Figure Tags</a></p>
+    </nav>
+    
+	<section>
+		<h2><a id="Art/Sec">Ambiguous distinction between Article and Section</h2>
+		
+		<p>When I started to write this page I started with an example from class that had an "article" tag. But since the whole point was to understand semantic tags, I looked it up in the class reading assignments. According to what I read, the "article" tag isn't the best fit for this topic as a whole. That tag is for a chunk of info that's complete on it's own. Now, you could say an entire web page fits that description, but I believe the intent is that it's for a relatively <i>small</i> chunk of self-contained information. Let's say someone makes a blog post about how to use an article element... that post could be reused in a topic about someone's favorite tags. Here's an example of such content:</p>
+
+		<article>The article element represents a component of a page that consists of a self-contained composition in a document, page, application, or site and that is intended to be independently distributable or reusable, e.g. in syndication. This could be a forum post, a magazine or newspaper article, a Web log entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</article>
+
+		<p>When someone looks at the source code of this topic, they can see that the text in the previous paragraph is inside the &lt;article&gt; and &lt;/article&gt; tags. To be perfectly honest, I'm not sure how that helps. I'll have to keep looking.</p>
+	</section>
+    
+	<section>
+        <h2><a id="Images">As for Images...</h2>
+		
+        <p>The new Figure tag let's you group an image along with a caption. Here's an example:</p>
+		
+		<figure>
+			<img src="http://ts1.mm.bing.net/th?&id=HN.608036746589769000&w=300&h=300&c=0&pid=1.9&rs=0&p=0" alt="Photo of a flower reflected thru a drop of water - credit to ohman-itsme"> 
+			<figcaption>Fig1. - Photo of a flower reflected thru a drop of water - found on bing images - photo credit to ohman-itsme.</figcaption>
+		</figure>
+    </section>
+	
+    <footer>Classification: Public - Review date <time>1/1/15</time></footer>
+	
+</body>
+
+</html>
